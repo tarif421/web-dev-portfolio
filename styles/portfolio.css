@@ -43,7 +43,6 @@ nav {
     background-repeat: no-repeat ;
     background-position: bottom left, bottom right ;
     
-    
 }
 .nav-title {
     font-weight: 800;
@@ -73,7 +72,7 @@ nav li a {
     
 }
 .banner-content {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
      
 }
