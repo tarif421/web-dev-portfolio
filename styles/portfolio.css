@@ -36,6 +36,21 @@ nav {
     margin: 50px 200px;
 
 }
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center{
+    text-align: center ;
+}
  
 /* header  */
 .header {
@@ -95,7 +110,12 @@ nav li a {
 main{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #FFF8F3;
+    
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 /* about styles */
 
@@ -103,7 +123,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    background-color: #FFF8F3;
 
 }
 
@@ -115,4 +135,21 @@ main{
 
 .item-description{
     font-weight: bold;
+}
+
+/* skills container style  */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills-description {
+    padding: 30px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
 }
